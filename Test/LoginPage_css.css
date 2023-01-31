@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/abstract-background-bitmap.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+ .container{
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 420px;
+    margin: auto;
+    background-image: url('../images/svg.Image.file.jpeg');
+    text-align: center;
+     border-radius: 25px;
+     background-repeat: no-repeat;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+
+
+
+
+
+
