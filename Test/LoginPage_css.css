@@ -10,7 +10,9 @@ body {
     padding: 30px;
     width: 420px;
     margin: auto;
-    background-image: url('../images/svg.Image.file.jpeg');
+    background-image: url('../images/svgLogin.svg');
+     background-position: center;
+     background-size: 480px 480px;
     text-align: center;
      border-radius: 25px;
      background-repeat: no-repeat;
