@@ -1,5 +1,5 @@
 body {
-    background-image: url("../images/abstract-background-bitmap.webp");
+    background-image: url("../images/BitmapBackground.bmp");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,24 +22,38 @@ body {
      transform: translate(-50%, -50%);
 
 }
- .toplinks a{
-     float: left;
-     display: block;
-     background-color: white;
-     text-align: center;
-     padding: 14px 16px;
-     text-decoration: none;
-     font-size: 17px;
-     border-bottom: 3px solid transparent;
- }
- .toplinks a:hover{
-     border-bottom: 3px black;
- }
+ul {
+    list-style-type: none;
+    position: sticky;
+    width:100%;
+    top:0;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+}
 
- .toplinks a.active{
-     border-bottom: 3px black;
- }
+li {
+    float: left;
+    border-right: 1px solid blue;
+}
 
+li a {
+    display: block;
+    color: blue;
+    font-size:20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+.active{
+    background-color: gray;
+    color: white;
+}
+li a:hover {
+    background-color: orange;
+    color: white;
+}
 
 
 
