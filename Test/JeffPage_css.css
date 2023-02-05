@@ -4,11 +4,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
-
-img{
-    width: 500px;
-    height: 500px;
-}
 ul {
     list-style-type: none;
     position: sticky;
@@ -33,7 +28,6 @@ li a {
     padding: 10px 20px;
     text-decoration: none;
 }
-
 li a:hover {
     background-color: orange;
     color: white;
