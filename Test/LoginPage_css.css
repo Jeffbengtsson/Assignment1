@@ -35,12 +35,12 @@ ul {
 
 li {
     float: left;
-    border-right: 1px solid blue;
+    border-right: 1px solid black;
 }
 
 li a {
     display: block;
-    color: blue;
+    color: black;
     font-size:20px;
     text-align: center;
     padding: 10px 20px;
