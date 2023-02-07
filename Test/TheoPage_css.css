@@ -14,6 +14,12 @@ ul {
     overflow: hidden;
     background-color: lightgray;
 }
+img{
+    width: 500px;
+    height: 500px;
+    position: center;
+    filter: drop-shadow(10px 10px 4px black);
+}
 
 li {
     float: left;
@@ -31,4 +37,13 @@ li a {
 li a:hover {
     background-color: orange;
     color: white;
+}
+table, th, td {
+    border: 1px solid;
+    background-image: url("../images/TableBackground.svg");
+    color: white;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
 }
