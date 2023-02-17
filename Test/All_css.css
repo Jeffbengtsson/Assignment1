@@ -107,21 +107,19 @@ nav {
     background-color: white;
     border-radius: 10px;
 
-    margin: 10px 1px 0px 11px;
+    margin: 10px 1px 1px 5px;
     padding: 0px 0px 0px 0px ;
 
 
 
 
 }
-#homepage, #login,  #jeff,  #theo,  #instajeff,  #instatheo {
+#homepage, #login, #jeff,  #theo,  #instajeff,  #instatheo {
 
-    padding: 30px 33px 30px 30px;
+    padding: 30px 33px 30px 32px;
     text-align: center;
     border-right: 2px solid black;
     text-decoration-line: none;
-
-
 
     color: black;
     font-family: Arial;
@@ -129,15 +127,12 @@ nav {
     z-index: 1;
     font-size: 35px;
 
-
-
 }
 
 
 
 nav a:hover {
     background-color: palegreen;
-    color: whitesmoke;
 }
 table, th, td {
     border: 1px solid;
